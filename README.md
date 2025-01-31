@@ -43,9 +43,9 @@ Katkıda bulunmak isterseniz, lütfen bir Pull Request oluşturun veya issue aç
 ## 📸 Uygulama Ekran Görüntüleri
 
 ### 🌤 Anlık Hava Durumu
-![Anlık Hava Durumu](screenshots/anlik_hava_durumu.png)
+![Anlık Hava Durumu](anlik_hava_durumu.png)
 
 ### ⭐ Favori Şehirler Listesi
-![Favori Şehirler](screenshots/favori_sehirler.png)
+![Favori Şehirler](favori_sehirler.png)
 
 
