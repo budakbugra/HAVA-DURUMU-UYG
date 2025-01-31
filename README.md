@@ -49,3 +49,48 @@ Katkıda bulunmak isterseniz, lütfen bir Pull Request oluşturun veya issue aç
 ![Favori Şehirler](favori_sehirler.png)
 
 
+## 🎯Kodun Amacı
+
+### Kullanıcı Tercihlerini Alma:
+
+Kullanıcıdan hava durumu bilgilerini alacağı şehri ve sıcaklık birimini seçmesi istenir.
+Sıcaklık birimi, Celsius (C), Fahrenheit (F) veya Kelvin (K) olarak belirlenir ve buna göre uygun birim seçimi yapılır. Bu tercihler, hava durumu API'sine gönderilir.
+
+### Anlık Hava Durumu Bilgisi Sağlamak:
+
+Kullanıcı tarafından girilen şehir için OpenWeather API'si üzerinden anlık hava durumu bilgisi alınır.
+Alınan verilerle, şehir adı, sıcaklık, hava durumu açıklaması, hissedilen sıcaklık ve nem gibi bilgiler ekrana yazdırılır.
+
+
+### Hava Durumu Tahmini Sağlamak:
+
+Kullanıcıya, kaç günlük hava durumu tahmini almak istediği sorulur (1-5 gün arası).
+API'den alınan verilerle, her bir gün için hava durumu tahminleri (tarih, sıcaklık, hava durumu açıklamaları) gösterilir.
+
+
+### Şehir Değiştirme:
+
+Kullanıcı, hava durumu bilgilerini almak istediği şehri değiştirebilir. Bu, şehir bilgisini sıfırlayarak tekrar şehir seçilmesini sağlar.
+
+
+### Favori Şehirler Listesi:
+
+Kullanıcı, sıkça hava durumu bilgisi almak istediği şehirleri favorilerine ekleyebilir.
+Favori şehirler listesi ekrana yazdırılır ve kullanıcı bu şehirlerden birini ana şehir olarak seçebilir.
+
+### Ana Menü ve Seçimler:
+
+Programın ana menüsünde, kullanıcının tercih ettiği işlemi seçmesine olanak tanınır:
+
+Anlık hava durumu görmek
+
+Hava durumu tahmini almak
+
+Şehir değiştirmek
+
+Favorilere şehir eklemek
+
+Favori şehirleri göstermek
+
+Çıkış yapmak
+
